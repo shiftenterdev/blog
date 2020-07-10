@@ -38,14 +38,14 @@
 <script>
 
     export default {
-        head:{
-            title:'About Page'
+        head: {
+            title: 'About Page'
         }
     }
 </script>
 
 <style>
-header.about-bg{
-background-image: url('~assets/img/about-bg.jpg');
-}
+    header.about-bg {
+        background-image: url('~assets/img/about-bg.jpg');
+    }
 </style>
