@@ -1,8 +1,5 @@
 <template>
     <div>
-        <!-- Navigation -->
-        <navbar/>
-
         <!-- Page Header -->
         <header class="masthead about-bg">
             <div class="overlay"></div>
@@ -41,7 +38,9 @@
 <script>
 
     export default {
-        
+        head:{
+            title:'About Page'
+        }
     }
 </script>
 
