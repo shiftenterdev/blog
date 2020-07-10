@@ -76,6 +76,7 @@
     import Footer from '@/components/Footer';
 
     export default {
+        middleware: 'auth',
         components: {
             Navbar,
             Footer

@@ -20,6 +20,12 @@
           <li class="nav-item">
             <nuxt-link class="nav-link" to="/contact">Contact</nuxt-link>
           </li>
+          <li class="nav-item">
+          <a v-if="$auth.loggedIn" @click="$auth.logout()">Sign Off</a>
+          </li>
+          <li class="nav-item">
+          <a v-if="!$auth.loggedIn" @click="$auth.loginWith('auth0')">Sign In</a>
+          </li>
         </ul>
       </div>
     </div>

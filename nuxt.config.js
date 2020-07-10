@@ -71,8 +71,23 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
+
+
+  auth: {
+    redirect: {
+      login: '/', // redirect user when not connected
+      callback: '/auth/signed-in'
+    },
+    strategies: {
+      auth0: {
+        domain: 'bappa.auth0.com',
+        client_id: 'eWRRVYRtO6j5Yr0hRWkuDgq8FtSuIvDk'
+      }
+    }
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/

@@ -1,10 +1,10 @@
 <template>
     <div>
         <!-- Navigation -->
-        <navbar></navbar>
+        <navbar/>
 
         <!-- Page Header -->
-        <header class="masthead" :style="{'background-image': `url(${require('assets/img/about-bg.jpg')})`}">
+        <header class="masthead about-bg">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
@@ -36,19 +36,20 @@
         </div>
 
         <hr>
-
-        <!-- Footer -->
-        <Footer></Footer>
     </div>
 </template>
 <script>
     import Navbar from '@/components/Navbar';
-    import Footer from '@/components/Footer';
 
     export default {
         components: {
-            Footer,
             Navbar
         }
     }
 </script>
+
+<style>
+header.about-bg{
+background-image: url('~assets/img/about-bg.jpg');
+}
+</style>
