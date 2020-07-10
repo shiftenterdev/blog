@@ -15,7 +15,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: 'Clean Blog - Start Bootstrap Theme',
+    title: 'Bappa | Welcome Home',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,11 +23,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        href: 'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic', 
-        rel: 'stylesheet', 
-        type:'text/css'
-      }
+      { rel: 'stylesheet',href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" },
+      { href: 'https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic', rel: 'stylesheet'}
     ],
     script: [
       {
@@ -74,11 +71,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+  },
+  // loading: {
+  //   color: 'blue',
+  //   height: '5px'
+  // }
 }
