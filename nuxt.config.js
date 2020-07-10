@@ -94,6 +94,13 @@ export default {
   */
   build: {
   },
+
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white'
+  },
+  
   // loading: {
   //   color: 'blue',
   //   height: '5px'

@@ -1,6 +1,5 @@
 <template>
     <div>
-        <Navbar></Navbar>
         <!-- Page Header -->
         <header class="masthead contact-bg">
             <div class="overlay"></div>

@@ -1,8 +1,5 @@
 <template>
     <div>
-        <!-- Navigation -->
-        <Navbar></Navbar>
-
         <!-- Page Header -->
         <header class="masthead post-bg">
             <div class="overlay"></div>
@@ -100,12 +97,7 @@
 </template>
 
 <script>
-    import Navbar from '@/components/Navbar';
-
     export default {
-        components: {
-            Navbar
-        }
     }
 </script>
 

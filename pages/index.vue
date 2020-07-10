@@ -1,8 +1,5 @@
 <template>
     <div>
-        <!-- Navigation -->
-        <navbar></navbar>
-
         <!-- Page Header -->
         <Header></Header>
         <!-- Main Content -->
@@ -39,12 +36,10 @@
 </template>
 
 <script>
-    import Navbar from '@/components/Navbar';
     import Header from '@/components/Header';
 
     export default {
         components: {
-            Navbar,
             Header
         },
         data() {
